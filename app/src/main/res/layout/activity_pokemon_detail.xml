@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/dimenOf16dp"
-        android:tint="@color/purple_700"
+        android:tint="@color/red"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_arrow_back" />
@@ -38,7 +38,7 @@
                 android:id="@+id/viewHeader"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dimenOf70dp"
-                android:background="@color/purple_700"
+                android:background="@color/red"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.appcompat.widget.AppCompatImageView
@@ -97,7 +97,7 @@
                 android:layout_margin="@dimen/dimenOf16dp"
                 android:fontFamily="sans-serif-black"
                 android:text="Type Pokemon"
-                android:textColor="@color/purple_700"
+                android:textColor="@color/red"
                 android:textSize="@dimen/dimenOf18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -111,7 +111,7 @@
                 android:layout_marginBottom="@dimen/dimenOf16dp"
                 android:fontFamily="sans-serif-black"
                 android:text="#ID Pokemon"
-                android:textColor="@color/purple_700"
+                android:textColor="@color/red"
                 android:textSize="@dimen/dimenOf24dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
